@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/* .login-bg{
+    background-image:url("assets/images/login-bg.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    
+    
+} */
+
+/* .login-bg {
+    
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+    
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+/* .login-bg::before {    
+    
+    background-image:url("assets/images/login-bg.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+} */
+/* body.login{
+    background-image: url('assets/images/img(11).webp');
+    height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.5;
+} */

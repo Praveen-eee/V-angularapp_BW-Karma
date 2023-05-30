@@ -1,0 +1,21 @@
+.width{
+    width: 280px;
+}
+.container {
+    height: 100vh;
+    min-height: 700px;
+    margin-top: 0; 
+    width: 50%;
+    
+  
+  }
+  .addonForm{
+    background-color: rgba(84, 93, 103, 0.233);
+    width: 320px;
+    border-radius: 10px;
+    padding: 15px 30px 10px 15px;
+  }
+
+  /* .back{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+  } */

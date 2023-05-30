@@ -1,0 +1,151 @@
+<div id="generic_price_table">   
+    <form>
+    <section>
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      
+                        <div class="price-heading clearfix">
+                            <h2 >THEME DETAILS</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">                   
+                            <div class="generic_head_price clearfix">
+                                     <div class="generic_head_content clearfix">                                    
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME NAME</span><br><br><br><br>
+                                        
+                                        <input type="text" id = "themeName" [(ngModel)] = "newtheme.themeName" name = "themeName" placeholder="Enter themeName" style="height: 40px; width: 300px;" value="">
+                                    </div>
+                                       <br>
+                                </div><br>           
+                            </div>                                                
+                        </div>
+                          <br>
+                    </div>                  
+                    <div class="col-md-4">                    
+                        <div class="generic_content  clearfix">
+                         <div class="generic_head_price clearfix">
+                            <div class="generic_head_content clearfix">
+                                 <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER IMAGE URL</span><br><br><br><br>
+                                        <input type="text" id = "imageUrl" 
+                                        [(ngModel)] = "newtheme.themeImageURL" name = "themeImageURL" placeholder="Enter imageUrl" style="height: 40px; width: 300px;" value="">
+                                    </div>
+                                    <br>                                   
+                                </div>
+                                <br>                        
+                            </div>                                                       
+                        </div>                          
+                    </div>
+                    <div class="col-md-4">                  
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                              <div class="generic_head_content clearfix">
+                                   <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER PHOTOGRAPHER DETAILS</span><br><br><br><br>
+                                        <input type="text" id = "photographerDetails" 
+                                        [(ngModel)] = "newtheme.themePhotographer" name = "themePhotographer" placeholder="Enter photographerDetails" style="height: 40px; width: 300px;" value="">
+                                    </div>                                  
+                                </div><br><br>                              
+                            </div>                                                     
+                        </div>                       
+                    </div>
+                    <br><br>
+                    <div class="col-md-4">                    
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                              <div class="generic_head_content clearfix">
+                                  <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER VIDEOGRAPHER DETAILS</span><br><br><br><br>
+                                        <input type="text" id = "videographerDetails" 
+                                        [(ngModel)] = "newtheme.themeVideographer" name = "themeVideographer" placeholder="Enter videographerDetails" style="height: 40px; width: 300px;" value="">
+
+                                    </div>                                 
+                                    <br>
+                                </div>                               
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">                                  
+                                    </span>
+                                </div>                              
+                            </div>                            
+                           
+                            <div class="generic_feature_list">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                         <br>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="generic_content clearfix">
+                         <div class="generic_head_price clearfix">
+                           <div class="generic_head_content clearfix">
+                             <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME RETURN GIFT</span><br><br><br><br>
+                                        <input type="text" id = "returnGift" 
+                                        [(ngModel)] = "newtheme.themeReturnGift" name = "themeReturnGift" placeholder="Enter returnGift" style="height: 40px; width: 300px;" value="">
+
+                                    </div>
+                                  
+                                    <br>
+                                </div>   
+                               <br>
+                            </div>                            
+                          </div>                        
+                    </div>
+                    <div class="col-md-4">
+                    <div class="generic_content clearfix">
+                       <div class="generic_head_price clearfix">
+                           <div class="generic_head_content clearfix">
+                               <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME COST</span><br><br><br><br>
+                                        <input type="text" id = "themeCost" 
+                                        [(ngModel)] = "newtheme.themeCost" name = "themeCost" placeholder="Enter theme cost" style="height: 40px; width: 300px;" value="">
+                                    </div>                     
+                                </div>
+                                <br>
+                                <br>
+                                </div>                                                     
+                        </div>                         
+                    </div>
+                    <div class="col-md-4 last" >
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                             <div class="generic_head_content clearfix">
+                                 <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME DESCRIPTION</span><br><br><br><br>
+                                        <input type="text" id="themeDescription" [(ngModel)]="newtheme.themeDescription" name="themeDescription" placeholder="Enter themeDescription" style="height: 60px; width: 300px;" value="">
+
+                                    </div>                                   
+                                </div>                               
+                              <br>                              
+                            </div>                                                    
+                        </div>
+                       </div>
+                </div>	
+            </div>
+        </section>             
+        <footer>
+            <button class="bottom_btn" button (click)="onSubmit()" > Add Theme</button>
+          
+        </footer>
+    </form>
+    </div>
